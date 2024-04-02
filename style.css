@@ -9,6 +9,9 @@ img {
 span, a, label {
     display: inline-block;
 }
+body{
+    padding: 10px 8px;
+}
 .katta{
     display: flex;
     flex-wrap: wrap;
@@ -34,11 +37,15 @@ width: 49%;
    
     width: 48%;
 }
-
+.qator{
+ width: 80%;
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
 .t{
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .span1{
     color: #156963;
@@ -142,12 +149,29 @@ i{
     border-bottom: 4px solid black;
     margin-bottom: 50px;
 }
+.h4{
+    font-size: 40px;
+}
 .btn1{
     background-color: #FFFFFF;
     font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+}
+.btn1:hover{
+    color: white;
+    background-color: #0C141F;
+}
+.g{
+    margin-left: 5px;
+}
+.btn1:hover .g{
+    color: limegreen;
 }
 .h4{
-    font-size: 30px;
+    font-size: 40px;
 }
 .maket{
     display: flex;
@@ -250,7 +274,7 @@ p{
 }
 .div67{
     padding: 25px; 
-    width: 30%;
+    width: 40%;
 }
 .pi{
     line-height: 1.8;
@@ -260,6 +284,11 @@ p{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top:20px;
+    width: 30%;
+}
+.hv{
+    width: 100%;
+    margin-bottom: 10px;
 }
 .max{
     display: flex;
@@ -268,17 +297,87 @@ p{
     padding: 40px;
 }
 .div68{
-    width: 70%;
+    width: 60%;
     margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hg{
+    color: whitesmoke;
+ 
+}
+.pic{
+    object-fit: cover;
+}
+.div29{
+    border: none;
 }
 .btn10{
     background-color: white;
-    color: #DFDFDF;
+    color: #0C141F;
     border: 2px solid #156963;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
 }
 .btn11{
     background-color: red;
+    width: 100%;
     color: white;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+.div30{
+    padding-bottom: 0px;
+}
+@media(max-width:900px){
+    .div67, .div68{
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .ok{
+        margin-bottom: 20px;
+    }
+    .uy{
+        width: 32.3%;
+        margin: 10px 0px;
+    }
+    .div7{
+        width: 48%;
+    }
+    .lp{
+        padding: 0;
+    }
+    .l{
+        padding: 10px 6px;
+    }
+}
+@media(max-width:780px){
+    .div1{
+      display: none;
+    }
+    .katta{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .div2{
+        width: 100%;
+    }
+    .box{
+        padding: 20px 8px;
+        margin-bottom: 18px;
+    }
+    .div29{
+        display: none;
+    }
+    .div30{
+        width: 100%;
+    }
+    .qator{
+        width: 100%;
+    }
 }
 @media(max-width:650px){
     .h1{
@@ -286,18 +385,35 @@ p{
         margin: 20px 0px;
         text-align: center;
     }
+    .oddiy{
+        justify-content: center;
+    }
+    .h4{
+        margin-bottom: 10px;
+    }
     .div1{
      display: none;
     }
     .div2{
         width: 100%;
     }
+    .max{
+        padding: 0;
+    }
     .t{
         width: 100%;
     }
-    .qator{
+    .uy{
         width: 100%;
+        justify-content: center;
+    }
+    .div68{
         text-align: center;
+    }
+    .qator{
+        width: 80%;
+        text-align: center;
+     
     }
     .p1{
         font-size: 24px;
@@ -381,8 +497,17 @@ p{
 .hb{
     font-size: 25px;
 }
+.span1{
+    margin: 0;
+}
 .div67{
     padding: 10px 8px;
+    width: 100%;
+}
+.t{
+    width: 100%;
+}
+.qator{
     width: 100%;
 }
 .div68{
@@ -452,7 +577,7 @@ p{
         }
         .div68{
             width: 100%;
-            text-align: end;
+            text-align: center;
         }
         .btn10{
             width: 100%;
